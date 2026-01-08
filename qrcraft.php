@@ -87,7 +87,7 @@ final class QRCraft {
     }
 
     private function load_dependencies() {
-        require_once QRCRAFT_PLUGIN_DIR . 'vendor/chillerlan/php-qrcode/QRCode.php';
+        require_once QRCRAFT_PLUGIN_DIR . 'includes/class-qrcraft-qrcode.php';
         require_once QRCRAFT_PLUGIN_DIR . 'includes/class-qrcraft-activator.php';
         require_once QRCRAFT_PLUGIN_DIR . 'includes/class-qrcraft-deactivator.php';
         require_once QRCRAFT_PLUGIN_DIR . 'includes/class-qrcraft-generator.php';

@@ -1,8 +1,4 @@
 <?php
-/**
- * QR Code Generator using external API with local caching
- * Uses goqr.me API which is free, fast, and reliable
- */
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
