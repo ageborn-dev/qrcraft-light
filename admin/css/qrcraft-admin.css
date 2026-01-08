@@ -1,0 +1,154 @@
+.qrcraft-settings-wrap {
+    max-width: 1200px;
+}
+
+.qrcraft-settings-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.qrcraft-settings-main {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+}
+
+.qrcraft-settings-sidebar {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.qrcraft-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.qrcraft-card h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.qrcraft-progress-wrap {
+    margin: 15px 0;
+}
+
+.qrcraft-progress-bar {
+    height: 20px;
+    background: #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.qrcraft-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2271b1, #135e96);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.qrcraft-progress-text {
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+.column-qrcraft {
+    width: 120px !important;
+}
+
+.column-qrcraft a {
+    white-space: nowrap;
+}
+
+.qrcraft-column-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.qrcraft-thumb {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qrcraft-thumb:hover {
+    transform: scale(2.5);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    z-index: 100;
+    position: relative;
+}
+
+.qrcraft-column-actions {
+    display: flex;
+    gap: 4px;
+}
+
+.qrcraft-column-actions .button {
+    padding: 0 8px;
+    font-size: 11px;
+    line-height: 1.8;
+    height: auto;
+}
+
+.qrcraft-column-empty {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.qrcraft-no-qr {
+    color: #999;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.qrcraft-metabox {
+    text-align: center;
+}
+
+.qrcraft-metabox-preview {
+    margin-bottom: 15px;
+}
+
+.qrcraft-metabox-preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.qrcraft-metabox-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.qrcraft-metabox-actions .button {
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 782px) {
+    .qrcraft-settings-container {
+        flex-direction: column;
+    }
+
+    .qrcraft-settings-sidebar {
+        width: 100%;
+    }
+}
